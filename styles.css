@@ -132,3 +132,7 @@ body {
   background-color: #ffffff; /* Cambia el fondo al hacer scroll */
   /* Agrega otros estilos que desees cuando se hace scroll */
 }
+
+footer { 
+  background-color: #c7a7cf;
+}
