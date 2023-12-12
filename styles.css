@@ -120,3 +120,15 @@ body {
   left: 0;
   z-index: -1;
 }
+
+/* Estilos iniciales para la sección de proyectos */
+#proyectos {
+  /* Estilos predeterminados para la sección */
+  transition: background-color 0.3s ease; /* Transición suave para cambios de fondo */
+}
+
+/* Estilos adicionales cuando se hace scroll */
+#proyectos.scrolled {
+  background-color: #ffffff; /* Cambia el fondo al hacer scroll */
+  /* Agrega otros estilos que desees cuando se hace scroll */
+}
