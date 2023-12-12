@@ -4,6 +4,27 @@ body {
   padding: 0;
 }
 
+/* Estilo adicional para el título principal */
+#inicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* 100% del alto de la ventana */
+  border-top: 25vh solid white; /* Borde blanco en la parte superior */
+  border-bottom: 25vh solid white; /* Borde blanco en la parte inferior */
+}
+
+/* Ajustes para el texto y párrafo dentro del título principal */
+#inicio h1 {
+  margin-bottom: 20px; /* Espacio adicional debajo del título */
+}
+
+#inicio p {
+  max-width: 600px; /* Ajusta el ancho máximo del párrafo según tus necesidades */
+  text-align: center; /* Centra el texto en el párrafo */
+}
+
 /* Estilos de la pantalla principal */
 .purple-bg {
   background-color: #c7a7cf;
