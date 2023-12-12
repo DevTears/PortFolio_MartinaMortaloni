@@ -1,6 +1,6 @@
 /* Agrega estilos específicos para la sección de foto de perfil y portada */
 .cover-photo {
-  background-image: url('/PortFolio_MartinaMortaloni/src/943695848074772510.webp'); /* Reemplaza con tu propia imagen de portada */
+  background-image: url('/src/943695848074772510.webp'); /* Reemplaza con tu propia imagen de portada */
   background-size: cover;
   background-position: center;
   height: 300px;
