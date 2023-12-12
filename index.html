@@ -18,343 +18,77 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#">Mi Portfolio</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#inicio">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#sobre-mi">Sobre Mí</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contacto">Contacto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#estudios">Estudios</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#cursos">Cursos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#experiencia">Experiencia</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#habilidades">Habilidades</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#habilidades-blandas"
-              >Habilidades Blandas</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#idiomas">Idiomas</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- Sección de Foto de perfil y Portada -->
-    <section id="inicio" class="cover-photo">
-      <img
-        src="/src/943695848074772510.webp"
-        alt="Foto de perfil"
-        class="profile-pic"
-      />
-      <h1>Martina Mortaloni</h1>
-      <p class="lead">Ser linda</p>
-    </section>
-
-    <section id="sobre-mi" class="container my-5">
-      <h2>Sobre mí</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quas
-        dolore tenetur totam doloremque dolores sint illo modi dicta ipsum
-        consequatur blanditiis odit, vero, nihil deserunt assumenda, in vitae
-        harum. Reprehenderit consequuntur impedit ipsam vel quia quam temporibus
-        eos veniam eaque ipsum quo quasi rerum dignissimos optio corporis
-        consequatur tenetur odio doloribus labore ad, corrupti dolorem aperiam
-        aliquid. Excepturi, dolorum. Dolore ex delectus temporibus consequatur
-        deleniti illo magni perferendis dolorem ab autem omnis labore iste non
-        quasi quia dicta est ipsam aliquam possimus, error amet! Necessitatibus
-        saepe officiis labore inventore! Alias illum iure necessitatibus
-        officiis deserunt, veritatis consequatur animi ratione quos fugiat.
-        Error veritatis quo eius dolorem tenetur quae voluptatem corporis dolore
-        dolores consequuntur similique, expedita, quam deserunt atque sed!
-      </p>
-    </section>
-
-    <!-- Sección de Experiencia -->
-    <section id="experiencia" class="container my-5">
-      <h2>Experiencia</h2>
-
-      <!-- Primer trabajo -->
-      <div class="card mb-4">
-        <div class="card-body">
-          <h4 class="card-title">Lugar de Trabajo 1</h4>
-          <p class="float-right">2023 - 2023</p>
-          <p class="card-text">Cargo: Cargo</p>
-          <p class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere illo
-            laboriosam, quasi accusamus error quae ab, vero laudantium possimus
-            impedit quidem hic minus nisi facilis nostrum nemo id deleniti est.
-          </p>
-          <ul class="card-text">
-            <li>Logro 1 o Tareas</li>
-            <li>Logro 2 o Tareas</li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Segundo trabajo -->
-      <div class="card mb-4">
-        <div class="card-body">
-          <h4 class="card-title">Lugar de Trabajo 2</h4>
-          <p class="float-right">2023 - 2023</p>
-          <p class="card-text">Cargo: Cargo</p>
-          <p class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere illo
-            laboriosam, quasi accusamus error quae ab, vero laudantium possimus
-            impedit quidem hic minus nisi facilis nostrum nemo id deleniti est.
-          </p>
-          <ul class="card-text">
-            <li>Logro 1 o Tareas</li>
-            <li>Logro 2 o Tareas</li>
-          </ul>
-        </div>
+    <!-- Pantalla principal -->
+    <section id="inicio" class="purple-bg text-center py-5">
+      <div class="container">
+        <h1 class="display-3 text-white">¿Qué esperas para ver mis diseños?</h1>
+        <p class="lead text-white">
+          En este espacio verás algunos trabajos realizados por mí que destacan
+          mis habilidades.
+        </p>
       </div>
     </section>
 
-    <<!-- Sección de Estudios -->
-    <section id="estudios" class="container my-0">
-      <h2>Estudios</h2>
+    <!-- Sección de Proyectos -->
+    <section id="proyectos" class="container my-5 position-relative">
+      <!-- Pink stripe para toda la sección -->
+      <div class="pink-stripe"></div>
 
-      <!-- Universidad -->
-      <div class="card mb-4">
-        <div class="row no-gutters">
-          <div class="col-md-4">
+      <div class="row">
+        <!-- Sección izquierda -->
+        <div class="col-md-4">
+          <div class="project-info">
+            <h3 class="text-center text-dark">Nombre del Proyecto</h3>
+          </div>
+          <!-- Sección de Colores -->
+          <div class="d-flex">
+            <div class="color-box" style="background-color: #f5e6f7"></div>
+            <div class="color-box" style="background-color: #d8c7e1"></div>
+            <div class="color-box" style="background-color: #c7a7cf"></div>
+          </div>
+
+          <!-- Sección de Fotos medianamente pequeñas -->
+          <div class="photos-section mt-4">
             <img
-              src="/src/943695848074772510.webp"
-              class="card-img"
-              alt="Foto de la Universidad"
+              src="/PortFolio_MartinaMortaloni/src/imagen_ejemplo.jpg"
+              alt="Diseño 1"
+              class="img-fluid small-image mb-2"
+            />
+            <img
+              src="/PortFolio_MartinaMortaloni/src/imagen_ejemplo.jpg"
+              alt="Diseño 2"
+              class="img-fluid small-image"
             />
           </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h4 class="card-title font-weight-bold">Universidad</h4>
-              <p class="card-text font-weight-bold">
-                Nombre de la Institución: Universidad XYZ
-              </p>
-              <p class="card-text">Lugar: Ciudad, País</p>
-              <p class="card-text">Año de Ingreso: 20XX</p>
-              <p class="card-text">Año de Egreso: 20XX</p>
-              <p class="card-text">Duración en Años: X años</p>
-              <p class="card-text">Promedio: X.X</p>
-              <p class="card-text">Título Obtenido: Tu Título Universitario</p>
-            </div>
-          </div>
         </div>
-      </div>
 
-      <!-- Secundaria -->
-      <div class="card mb-4">
-        <div class="row no-gutters">
-          <div class="col-md-4">
+        <!-- Sección central -->
+        <div class="col-md-4 text-center">
+          <!-- Sección de Teléfono con Instagram -->
+          <div class="phone-container mt-5">
             <img
-              src="/src/943695848074772510.webp"
-              class="card-img"
-              alt="Foto de la Escuela Secundaria"
+              src="/PortFolio_MartinaMortaloni/src/TLF.png"
+              alt="Teléfono con Instagram"
+              class="img-fluid mb-2"
             />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h4 class="card-title font-weight-bold">Educación Secundaria</h4>
-              <p class="card-text font-weight-bold">
-                Nombre de la Institución: Escuela Secundaria XYZ
-              </p>
-              <p class="card-text">Lugar: Ciudad, País</p>
-              <p class="card-text">Año de Ingreso: 20XX</p>
-              <p class="card-text">Año de Egreso: 20XX</p>
-              <p class="card-text">Duración en Años: X años</p>
-              <p class="card-text">Promedio: X.X</p>
-              <p class="card-text">Título Obtenido: Tu Título Secundario</p>
-            </div>
+            <h4>Instagram de la Empresa</h4>
           </div>
         </div>
-      </div>
-    </section>
 
-    <!-- Sección de Cursos -->
-    <section id="cursos" class="container my-5">
-      <h2>Cursos</h2>
-
-      <!-- Curso 1 -->
-      <div class="card mb-4">
-        <div class="row no-gutters">
-          <div class="col-md-3">
+        <!-- Sección derecha -->
+        <div class="col-md-4 text-center">
+          <!-- Sección de Teléfono con Feed de Instagram -->
+          <div class="phone-container mt-0">
             <img
-              src="/src/943695848074772510.webp"
-              class="card-img"
-              alt="Foto del Curso 1"
+              src="/PortFolio_MartinaMortaloni/src/TLF.png"
+              alt="Teléfono con Feed de Instagram"
+              class="img-fluid mb-2"
             />
-          </div>
-          <div class="col-md-9">
-            <div class="card-body">
-              <h4 class="card-title font-weight-bold">Nombre del Curso 1</h4>
-              <p class="card-text">Año de Egreso: 20XX</p>
-              <p class="card-text">Duración en Horas: X horas</p>
-              <p class="card-text">
-                Descripción del Curso: Descripción detallada del contenido del
-                curso.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Curso 2 -->
-      <div class="card mb-4">
-        <div class="row no-gutters">
-          <div class="col-md-3">
-            <img
-              src="/src/943695848074772510.webp"
-              class="card-img"
-              alt="Foto del Curso 2"
-            />
-          </div>
-          <div class="col-md-9">
-            <div class="card-body">
-              <h4 class="card-title font-weight-bold">Nombre del Curso 2</h4>
-              <p class="card-text">Año de Egreso: 20XX</p>
-              <p class="card-text">Duración en Horas: X horas</p>
-              <p class="card-text">
-                Descripción del Curso: Descripción detallada del contenido del
-                curso.
-              </p>
-            </div>
+            <p>Descripción de las habilidades empleadas en el proyecto.</p>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- Sección de Habilidades -->
-    <section id="habilidades" class="container my-5">
-      <h2>Habilidades</h2>
-      <ul>
-        <li>Ser Linda</li>
-        <li>Ser Más Linda</li>
-        <li>Ser Aún Más Linda</li>
-      </ul>
-    </section>
-
-    <!-- Sección de Habilidades Blandas -->
-    <section id="habilidades-blandas" class="container my-5">
-      <h2>Habilidades Blandas</h2>
-      <ul>
-        <li>Ser Linda</li>
-        <li>Ser Más Linda</li>
-        <li>Ser Aún Más Linda</li>
-      </ul>
-    </section>
-
-    <!-- Sección de Idiomas -->
-    <section id="idiomas" class="container my-5">
-      <h2>Idiomas</h2>
-
-      <!-- Idioma 1 -->
-      <div class="card mb-4">
-        <div class="card-body">
-          <h4 class="card-title font-weight-bold">Nombre del Idioma 1</h4>
-          <p class="card-text">Nivel: Avanzado</p>
-        </div>
-      </div>
-
-      <!-- Idioma 2 -->
-      <div class="card mb-4">
-        <div class="card-body">
-          <h4 class="card-title font-weight-bold">Nombre del Idioma 2</h4>
-          <p class="card-text">Nivel: Intermedio</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Sección de Contacto -->
-    <section id="contacto" class="container my-5">
-      <h2>Contacto</h2>
-      <form>
-        <div class="form-group">
-          <label for="nombre">Nombre:</label>
-          <input type="text" class="form-control" id="nombre" name="nombre" />
-        </div>
-        <div class="form-group">
-          <label for="email">Correo electrónico:</label>
-          <input type="email" class="form-control" id="email" name="email" />
-        </div>
-        <div class="form-group">
-          <label for="mensaje">Mensaje:</label>
-          <textarea
-            class="form-control"
-            id="mensaje"
-            name="mensaje"
-            rows="4"
-          ></textarea>
-        </div>
-        <button type="submit" class="btn">Enviar Mensaje</button>
-      </form>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-white text-center py-3">
-      <p>&copy; 2023 Mi Portfolio</p>
-
-      <!-- Correo y Teléfono -->
-      <p>Correo: ejemplo@mail.com | Teléfono: 123-456-7890</p>
-
-      <!-- Redes Sociales -->
-      <div class="social-icons mt-3">
-        <a
-          href="https://www.linkedin.com/in/tu-perfil-linkedin"
-          target="_blank"
-          class="text-white mr-3"
-        >
-          <i class="fab fa-linkedin fa-2x"></i>
-        </a>
-        <a
-          href="https://www.instagram.com/tu-usuario-instagram"
-          target="_blank"
-          class="text-white mr-3"
-        >
-          <i class="fab fa-instagram fa-2x"></i>
-        </a>
-        <a
-          href="https://twitter.com/tu-usuario-twitter"
-          target="_blank"
-          class="text-white mr-3"
-        >
-          <i class="fab fa-twitter fa-2x"></i>
-        </a>
-        <a
-          href="https://www.facebook.com/tu-usuario-facebook"
-          target="_blank"
-          class="text-white"
-        >
-          <i class="fab fa-facebook fa-2x"></i>
-        </a>
-      </div>
-    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>

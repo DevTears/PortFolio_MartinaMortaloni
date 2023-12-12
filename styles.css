@@ -1,66 +1,44 @@
-/* Agrega estilos específicos para la sección de foto de perfil y portada */
-.cover-photo {
-  background-image: url('/src/943695848074772510.webp'); /* Reemplaza con tu propia imagen de portada */
-  background-size: cover;
-  background-position: center;
-  height: 300px;
-  position: relative;
-  text-align: center;
-  color: #fff;
-  padding-top: 50px;
-}
-
-.profile-pic {
-  border: 5px solid #fff;
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  position: absolute;
-  bottom: -75px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-/* Personaliza el tamaño y espacio entre los íconos */
-.social-icons i {
-  margin-top: 10px; /* Ajusta el espacio superior entre los íconos */
-}
-
-.social-icons a {
-  text-decoration: none; /* Quita la decoración de enlace */
-}
-
 /* Estilos generales */
 body {
-  background-color: #f5e6f7; /* Púrpura claro pastel para el fondo del cuerpo */
-  color: #333; /* Color de texto principal */
+  margin: 0;
+  padding: 0;
 }
 
-/* Estilos de la barra de navegación */
-.navbar {
-  background-color: #c7a7cf; /* Púrpura claro pastel para la barra de navegación */
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: #333; /* Color de los enlaces de la barra de navegación */
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #fff; /* Color de los enlaces de la barra de navegación al pasar el mouse sobre ellos */
-}
-
-/* Estilos de las tarjetas */
-.card {
-  background-color: #d8c7e1; /* Púrpura claro pastel para las tarjetas */
-  color: #333; /* Color de texto en las tarjetas */
-}
-
-/* Estilos del pie de página */
-footer {
-  background-color: #c7a7cf; /* Púrpura claro pastel para el fondo del pie de página */
-  color: #fff; /* Color de texto en el pie de página */
-}
-
-#contacto button {
+/* Estilos de la pantalla principal */
+.purple-bg {
   background-color: #c7a7cf;
+}
+
+/* Estilos de los cuadritos de colores */
+.color-box {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+/* Estilos de las imágenes medianamente pequeñas (tamaño fijo) */
+.small-image {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+/* Estilos de las imágenes de teléfono */
+.phone-container {
+  text-align: center;
+}
+
+.project-info {
+  position: relative;
+  overflow: hidden;
+}
+
+.pink-stripe {
+  background: linear-gradient(45deg, #f5e6f7 25%, transparent 25%, transparent 50%, #f5e6f7 50%, #f5e6f7 75%, transparent 75%, transparent);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
